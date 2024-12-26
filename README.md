@@ -1,2 +1,2 @@
 # s-hook
- Karabiner-Elements complex modifications
+ Karabiner-Elements complex modifications.
