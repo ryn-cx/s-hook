@@ -1,0 +1,38 @@
+{
+    "description": "Swap Option Backspace and Command Backspace.",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "delete_or_backspace",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["left_shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "delete_or_backspace",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "delete_or_backspace",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["left_shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "delete_or_backspace",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ],
+    "title": "Word hotkeys"
+}

@@ -1,0 +1,70 @@
+{
+    "description": "Swap Option Left/Right Arrow and Command Left/Right Arrow.",
+    "manipulators": [
+        {
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["left_shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "left_arrow",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["left_shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_arrow",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["left_shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "from": {
+                "key_code": "right_arrow",
+                "modifiers": {
+                    "mandatory": ["command"],
+                    "optional": ["left_shift"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "right_arrow",
+                    "modifiers": ["command"]
+                }
+            ],
+            "type": "basic"
+        }
+    ],
+    "title": "Word hotkeys"
+}
